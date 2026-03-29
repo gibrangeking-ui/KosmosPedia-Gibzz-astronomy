@@ -1,0 +1,70 @@
+:root {
+    --space-dark: #05010a;
+    --nebula-purple: #7c3aed;
+    --starlight: #e0d0f0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--space-dark);
+    color: var(--starlight);
+    scroll-behavior: smooth;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 5%;
+    background: rgba(13, 2, 22, 0.9);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 1px solid var(--nebula-purple);
+}
+
+.logo { font-size: 1.5rem; font-weight: bold; color: var(--nebula-purple); }
+
+section { padding: 80px 5%; text-align: center; }
+
+#apod-container {
+    background: #1a1a2e;
+    padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+#apod-img { width: 100%; max-width: 800px; border-radius: 10px; margin-top: 15px; }
+
+.tracker-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.track-card, .event-item {
+    background: #16213e;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--nebula-purple);
+}
+
+.profile-card {
+    background: linear-gradient(135deg, #2e1065, #05010a);
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid var(--nebula-purple);
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.wa { background: #25d366; }
+.saweria { background: #faae2b; color: #000; }
