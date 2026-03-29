@@ -1,2 +1,0 @@
-# KosmosPedia-Gibzz-astronomy
-kosmospedia
