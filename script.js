@@ -1,8 +1,8 @@
 // 1. Fetch NASA APOD
 async function getAPOD() {
-    const apiKey = 1mqbq8LmvqitV1YcJ2C10O4OqDZMo31aAum8EwsO ; // Ganti dengan API Key NASA milikmu
+    const apiKEY = "1mqbq8LmvqitV1YcJ2C10O4OqDZMo31aAum8EwsO" ; // Ganti dengan API Key NASA milikmu
     try {
-        const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key=${apiKey}`);
+        const response = await fetch(`https://api.nasa.gov/planetary/apod?api_key= 1mqbq8LmvqitV1YcJ2C10O4OqDZMo31aAum8EwsO`);
         const data = await response.json();
         document.getElementById('apod-content').innerHTML = `
             <h3>${data.title}</h3>
